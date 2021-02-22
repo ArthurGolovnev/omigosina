@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lux {
+        width: 300px;
+        border: 1px dotted #a52a2a;
+        border-collapse: collapse;
+        border-spacing: 1;
+   }
+   .lux th {
+        background: #633e0e;
+        color: white;
+        text-align: center;
+   }
+   .lux td {
+        border-bottom: 1px solid black;
+   }
+   .lux td, .lux th {
+        padding: 4px;
+   }
+
+   .lux td {
+       text-align: center;
+   }
+
+   .lux td:nth-child(1){
+       text-align: left;
+   }
+
+   .lux tr:nth-child(odd){
+       background-color: #147936;
+   }
+   .lux tr:nth-child(even){
+       background-color:#FFFFF0;
+   }
+
+
+
